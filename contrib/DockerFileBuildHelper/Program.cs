@@ -249,7 +249,7 @@ namespace DockerFileBuildHelper
                 case "docker-compose-generator":
                     dockerInfo.DockerFilePath = "docker-compose-generator/linuxamd64.Dockerfile";
                     dockerInfo.DockerFilePathARM32v7 = "docker-compose-generator/linuxarm32v7.Dockerfile";
-                    dockerInfo.GitLink = "https://github.com/btcpayserver/btcpayserver-docker";
+                    dockerInfo.GitLink = "https://github.com/CristianBanexcoin/btcpaybanexcoin-docker-master";
                     dockerInfo.GitRef = $"dcg-latest";
                     break;
                 case "docker-bitcoingold":
