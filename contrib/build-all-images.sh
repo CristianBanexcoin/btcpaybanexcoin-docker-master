@@ -170,7 +170,7 @@ DOCKERFILE="Dockerfile.linuxamd64"
 # https://raw.githubusercontent.com/btcpayserver/btcpayserver/v1.0.3.105/Dockerfile.linuxarm32v7
 [[ "$(uname -m)" == "armv7l" ]] && DOCKERFILE="Dockerfile.linuxarm32v7"
 echo "Building btcpayserver/btcpayserver:1.0.3.105"
-git clone https://github.com/btcpayserver/btcpayserver btcpayserver
+git clone https://github.com/CristianBanexcoin/banexcoinpay btcpayserver
 cd btcpayserver
 git checkout v1.0.3.105
 cd "$(dirname $DOCKERFILE)"
